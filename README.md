@@ -1,6 +1,6 @@
 ### Nemo NER 
 
-This repo uses [NeMo 1.4.0](https://github.com/NVIDIA/NeMo/tree/r1.4.0). To specialize existing Bert models to Named 
+This repo uses [NeMo 1.4.0](https://github.com/NVIDIA/NeMo/tree/r1.4.0). To train existing Bert models for Named 
 entity recognition tasks. 
 
 #### Installation 
