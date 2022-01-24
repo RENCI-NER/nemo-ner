@@ -1,0 +1,5 @@
+nemo_experiments
+*.nemo
+__pycache__/
+*.py[cod]
+data
