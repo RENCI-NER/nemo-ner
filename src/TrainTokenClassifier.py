@@ -49,7 +49,7 @@ def train(cfg: DictConfig) -> None:
                 with "model.dataset.data_dir" argument'
             )
     trainer.fit(model)
-    save_path = os.path.join(os.path.dirname(__file__), "..", "trained_model.nemo")
+    save_path = os.environ.get("TRAINED_MODEL_SAVE_PATH", os.path.join(os.path.dirname(__file__), "..", "trained_model.nemo"))
     print("saving")
     model.save_to(save_path)
 
